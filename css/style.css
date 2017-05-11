@@ -1,0 +1,40 @@
+.navbar{
+    border-radius:0;
+    margin-bottom:0;
+}
+.navbar-inverse {
+    background-color: saddlebrown;
+    border-color: brown;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+}
+.hero-overlay {
+    position:absolute;
+    top:0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero-offer {
+position: absolute;
+top: 50%;
+left: 50%;
+color: #fff;
+transform: translate(-50%,50%);
+}
+
+.hero-offer h1{  
+    font-size: 70px;
+}
